@@ -1,0 +1,15 @@
+.vscode
+/__pycache__
+
+# output generated from learn_faces.py
+/training_data/*.npz
+
+# output generated from
+#   create_vgg_face_model_from_weights.py
+# and
+#   convert_h5_to_tflite.py
+/models/vgg_face_keras.h5
+/models/vgg_face_keras_edgetpu.tflite
+
+# test images generated when debugging
+/*.jpg
